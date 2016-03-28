@@ -24,7 +24,3 @@ RUN echo "[program:apache2]" >> /etc/supervisor/conf.d/supervisord.conf
 RUN echo 'command=/bin/bash -c "source /etc/apache2/envvars && exec /usr/sbin/apache2 -DFOREGROUND"' >> /etc/supervisor/conf.d/supervisord.conf
 EXPOSE 22 80
 CMD ["/usr/bin/supervisord"]
-123546545345353
-453453453453
-
-
